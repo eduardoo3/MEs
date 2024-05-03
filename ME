@@ -1,0 +1,13 @@
+#include <iostream>
+#include <bitset>
+#include "emoji.h"
+
+int main() {
+    std::cout << emojicpp::emojize("Emoji :smile: for c++ :+1:") << std::endl;
+
+  int numero = 133; // numero inteiro a ser convertido para binario
+  std::bitset<sizeof(int) * 8>
+  binario(numero); // converte para binario
+ std::cout << "o numero " << numero << " em binario é: " << binario << std::endl;
+   return 0;
+}
